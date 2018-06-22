@@ -1,0 +1,15 @@
+testing adding duplicate data
+false
+false
+false true
+testing adding duplicate edges
+false
+true
+testing adding edges between nodes not in the graph
+exception caught
+exception caught
+testing isConnected
+false
+exception caught
+testing print with an unknown node
+exception caught

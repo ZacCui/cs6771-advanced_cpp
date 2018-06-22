@@ -1,0 +1,12 @@
+Graph before node replacement
+a
+b
+c
+Graph after node replacement
+b
+e
+c
+trying to replace node with an existing node
+false
+trying to replace node with a node not in the graph
+exception caught

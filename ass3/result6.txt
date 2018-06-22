@@ -1,0 +1,27 @@
+Before calling mergReplace(2,3)
+Edges attached to Node 1
+2 1->2
+Edges attached to Node 2
+3 2->3
+4 2->4
+4 cs6771
+Edges attached to Node 3
+2 3->2
+4 3->4
+4 cs6771
+Edges attached to Node 4
+(null)
+
+After calling mergReplace(2,3)
+Edges attached to Node 1
+3 1->2
+checking that node 2 has been destroyed
+exception caught
+Edges attached to Node 3
+3 2->3
+4 2->4
+3 3->2
+4 3->4
+4 cs6771
+Edges attached to Node 4
+(null)

@@ -1,0 +1,10 @@
+Graph g before attempted change
+a
+b
+c
+Graph g after attempted change
+a
+b
+c
+Confirming that data has changed if we are using ptrs
+false true

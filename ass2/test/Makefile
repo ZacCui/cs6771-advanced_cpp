@@ -1,0 +1,18 @@
+TEST=test19
+
+all: EuclideanVectorTester
+
+EuclideanVectorTester: EuclideanVectorTester.o EuclideanVector.o Makefile
+	g++ -std=c++14 -fsanitize=address EuclideanVectorTester.o EuclideanVector.o -o EuclideanVectorTester
+
+EuclideanVectorTester.o: EuclideanVectorTester.cpp EuclideanVector.h
+	cp EuclideanVectorTester.cpp tmp1.cpp
+	cp $(TEST).cpp EuclideanVectorTester.cpp
+	g++ -std=c++14 -Wall -Werror -O2 -fsanitize=address -c EuclideanVectorTester.cpp
+	mv tmp1.cpp EuclideanVectorTester.cpp
+
+EuclideanVector.o: EuclideanVector.cpp EuclideanVector.h
+	g++ -std=c++14 -Wall -Werror -O2 -fsanitize=address -c EuclideanVector.cpp
+
+clean:
+	rm *o EuclideanVectorTester

@@ -1,0 +1,7 @@
+true
+false
+true
+Const graph: 
+a
+b
+c

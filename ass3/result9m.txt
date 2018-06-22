@@ -1,0 +1,19 @@
+original graph
+a
+d
+c
+b
+Edges attached to Node b
+a 3
+a 5
+Graph before copy assignment
+z
+moved-from graph (expected to be empty)
+moved-to graph
+a
+d
+c
+b
+Edges attached to Node b
+a 3
+a 5

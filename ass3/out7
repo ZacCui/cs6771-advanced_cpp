@@ -1,0 +1,11 @@
+Graph before node/edge deletion
+a
+d
+c
+b
+Edges attached to Node b
+a 3
+a 5
+Edges attached to Node c
+a 3
+deleteing edge between b and a
